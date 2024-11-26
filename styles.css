@@ -1,0 +1,58 @@
+:root{
+    --clickable: #4C5FD5;
+    --search: #dadbf1;
+    --black: #000000;
+    --white: #fff;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-size: large;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#top-bar{
+    background-color: var(--black);
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60vw;
+}
+
+#top-bar *{
+    color: white;
+    font-size: large;
+}
+
+#buttons{
+    display: flex;
+    gap: 2vw;
+    margin-right: 2vw;
+    height: 50%;
+    border-radius: 10px;
+}
+
+#buttons button{
+    border-radius: 10px;
+}
+
+#submit-button{
+    background-color: #1a1a1a;
+    border: #7a7a7a solid 2px;
+    width: 12vw;
+}
+
+#sign-in-button{
+    background-color: var(--clickable);
+    border: transparent;
+    width: 6vw;
+}
